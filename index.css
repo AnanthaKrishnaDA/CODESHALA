@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    background-image: linear-gradient(black,#2D3436);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif; 
+}
+.headnavp{
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    height:80px !important; 
+}
+.headnavp:hover{
+    background-color: #c5c1c0;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+#headnav{
+    width:100%;
+    height:80px;
+    background-color: #FEDC3D;
+    color: black;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 40px;
+    font-weight: bolder;
+}
+#div1{
+    width: 100%;
+    height:500px;
+    background-color:#FEA680;
+    font-family: 'Poppins', sans-serif; 
+}
+#div2{
+    width: 100%;
+    height:500px;
+    background-color:#01ABAA;
+    font-family: 'Poppins', sans-serif; 
+}
+.logo{
+    position:relative;
+    top:100px;
+    left:800px;
+    font-family: 'Poppins', sans-serif; 
+}
+.logoname{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif; 
+    position:relative;
+    top:-250px;
+    left:250px;
+}
+.logop{
+    font-weight: bolder;
+    position: relative;
+    left:200px;
+    top:-200px;
+    font-size: 17px;
+}
+.logodiv:hover{
+    background-color: #813772 !important;
+    padding-left: 20px !important;
+    transition: 0.7s !important;
+}
+#endDiv{
+    font-family:cursive;
+    width:100%;
+    height: 300px;
+    background-image: linear-gradient(black,#2D3436);
+    text-align: center;
+    color: white;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 50%;
+    position:relative;
+    top:50px;
+}
